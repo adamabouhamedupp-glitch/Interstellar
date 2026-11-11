@@ -10,7 +10,8 @@
     "start": "node index.js",
     "format": "pnpm biome format --write .",
     "precommit": "pnpm run format && pnpm biome check --write .",
-    "lint": "biome lint --write ."
+    "lint": "biome lint --write .",
+    "build:netlify": "node scripts/build-netlify.mjs"
   },
   "author": "InterstellarNetwork",
   "license": "GPL-3.0-or-later",
